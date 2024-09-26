@@ -1,0 +1,157 @@
+body {
+    background-color: antiquewhite;
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Move font-family here for consistency */
+}
+
+.todo {
+    padding-top: 20px;
+}
+
+.to-do-list {
+    background-color: aqua;
+    padding: 15px; /* Simplified padding */
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px auto; /* Center horizontally */
+    max-width: 700px; /* Maximum width */
+    width: 90%; /* Responsive width */
+    border: 2px solid rgb(37, 29, 29);
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjusted for smaller screens */
+}
+
+button {
+    font-size: 1.5rem; /* Fixed comma issue */
+    font-weight: bold;
+    padding: 15px 20px; /* Adjusted padding */
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Added 's' for seconds */
+}
+
+.add-button {
+    height: 60px;
+    background-color: rgb(118, 202, 202);
+    padding: 12px;
+    border: -3px;
+}
+.add-button:hover{
+    background-color: green;
+}
+
+.delete-button {
+    background-color: aqua;
+    
+}
+
+.delete-button:hover {
+    background-color: rgb(255, 4, 4);
+}
+
+.move-button {
+    background-color: aqua;
+}
+
+.move-button:hover {
+    background-color: blue;
+}
+
+input[type="text"] {
+    font-size: 1.5rem; /* Adjusted for smaller screens */
+    font-weight: bold;
+    width: 80%; /* Responsive width */
+    padding: 10px; /* Adjusted padding */
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 1.5rem; /* Adjusted for smaller screens */
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(134, 190, 238);
+    margin-bottom: 10px;
+    border: 2px solid rgb(2, 2, 2);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 557px; /* Full width */
+    max-width: 630px; /* Retain max width for larger screens */
+    margin: 10px auto; /* Center with auto margins */
+}
+
+.result {
+    margin-top: 2px;
+    margin-left: -50px;
+    font-size: 1.9rem;
+    align-self: flex-start;
+    flex: 1;
+    padding-right: 10px; /* Space between text and buttons */
+}
+
+.delete-button, .move-button {
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width:  360px) {
+    h1 {
+        font-size: 1.7rem; /* Smaller heading */
+    }
+
+    button {
+
+        font-size: 1rem; /* Smaller buttons */
+    }
+    .add-button{
+        margin-right: -9px;
+        padding-top: 9px;
+        height: 40px;
+    }
+
+    input[type="text"] {
+        margin-left: 5px;
+        padding: 5px;
+        width: 249px;
+        font-size: 1rem; /* Smaller input font size */
+    }
+    .result{
+        font-size: 1rem;
+        margin-top: -3px;
+        margin-left: -10px;
+        align-self: flex-start;
+        flex: 1;
+        padding-right: 10px; 
+    }
+
+    li {
+        margin-left: 5px;
+        height: 10px;
+        width: 290px;
+        font-size: 1rem; /* Smaller list items */
+    }
+    .delete-button, .move-button {
+        padding: 4px 6px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .to-do-list {
+        padding-left: 1px;
+        margin: 50px 10px; /* Adjust margin for smaller screens */
+    }
+}
+    
