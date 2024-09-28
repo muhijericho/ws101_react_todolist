@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/ws101_react_todolist/static/css/main.37743b5b.chunk.css",
-    "main.js": "/ws101_react_todolist/static/js/main.427b668d.chunk.js",
-    "main.js.map": "/ws101_react_todolist/static/js/main.427b668d.chunk.js.map",
-    "runtime~main.js": "/ws101_react_todolist/static/js/runtime~main.ce3e8571.js",
-    "runtime~main.js.map": "/ws101_react_todolist/static/js/runtime~main.ce3e8571.js.map",
-    "static/js/2.ca150098.chunk.js": "/ws101_react_todolist/static/js/2.ca150098.chunk.js",
-    "static/js/2.ca150098.chunk.js.map": "/ws101_react_todolist/static/js/2.ca150098.chunk.js.map",
-    "index.html": "/ws101_react_todolist/index.html",
-    "precache-manifest.eb5a615d0f45e98c0cf3e18e19d8a773.js": "/ws101_react_todolist/precache-manifest.eb5a615d0f45e98c0cf3e18e19d8a773.js",
-    "service-worker.js": "/ws101_react_todolist/service-worker.js",
-    "static/css/main.37743b5b.chunk.css.map": "/ws101_react_todolist/static/css/main.37743b5b.chunk.css.map"
-  }
+    "main.css": "/https;//muhijericho.github.io//ws101_react_todolist/static/css/main.3196b5b6.css",
+    "main.js": "/https;//muhijericho.github.io//ws101_react_todolist/static/js/main.66912551.js",
+    "index.html": "/https;//muhijericho.github.io//ws101_react_todolist/index.html",
+    "main.3196b5b6.css.map": "/https;//muhijericho.github.io//ws101_react_todolist/static/css/main.3196b5b6.css.map",
+    "main.66912551.js.map": "/https;//muhijericho.github.io//ws101_react_todolist/static/js/main.66912551.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3196b5b6.css",
+    "static/js/main.66912551.js"
+  ]
 }
